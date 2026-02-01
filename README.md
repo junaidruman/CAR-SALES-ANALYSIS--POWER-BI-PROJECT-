@@ -46,8 +46,9 @@ Established a **one-to-many relationship** between:
 
 YTD Total Sales: $371.2M
 Formula: SUM('Car Data'[Total Sales])
-MTD Total Sales: $54.28M
-Formula: CALCULATE(SUM('Car Data'[Total Sales]), DATESMTD('Calendar Table'[Date]))
+MTD Total Sales — $54.28M
+Formula: CALCULATE(SUM('Car Data'[Total Sales]),DATESMTD('Calendar Table'[Date]))
+
 YOY Growth in Total Sales: 23.6%
 Formula: [Sales Difference]/[PTYD Total Sales]
 Difference between YTD Sales and PTYD Sales: $70.8M
@@ -75,49 +76,4 @@ Difference between YTD Cars Sold and PTYD Cars Sold: 3K
 Formula: [YTD Car Solds]-[PTYD Car Solds]   
  
 
----
 
-📋 DETAILED SALES GRID
-
-Complete transaction-level sales data for deep analysis.
-
-📷
-
-
-
-
-📈 KEY BUSINESS INSIGHTS
-
-📈 23.59% YoY Sales Growth generating $371.2M
-
-💰 Avg car price dropped 0.79%
-
-🏆 Austin & Janesville are top-performing regions
-
-📅 Peak sales in Week 36 & Week 47
-
-🚘 Car sales volume increased 19.73% YoY
-
-🎨 Pale White = top color
-
-🚙 SUVs & Hatchbacks = best body styles
-
-🏭 Chevrolet, Ford & Dodge = 18% of total sales
-
-⚙️ Automatic > Manual transmission
-
-🔧 DOHC engines outsold OHC
-
-⚠️ AREAS REQUIRING ATTENTION
-
-Improve pricing strategy to reverse 0.79% price drop
-
-Boost low-performing regions: Middletown & Pasco
-
-Strengthen Q1 & Q2 sales strategies
-
-Increase sales for Jaguar & Hyundai
-
-🏁 CONCLUSION
-
-This dashboard delivers a complete performance view of dealership operations, combining KPIs, trends, and insights to support strategic decision-making and revenue growth.
