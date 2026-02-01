@@ -77,6 +77,8 @@ Cars Sold:** 19.73% - Formula: car_data[Cars Sold Diff]/[YTD Car Solds]
 Difference between YTD Cars Sold and PTYD Cars Sold: 3K
 Formula: [YTD Car Solds]-[PTYD Car Solds]
 
+```DAX
+
 ---
 
 📋 DETAILED SALES GRID
