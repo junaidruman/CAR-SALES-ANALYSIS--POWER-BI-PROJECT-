@@ -77,7 +77,7 @@ Cars Sold:** 19.73% - Formula: car_data[Cars Sold Diff]/[YTD Car Solds]
 Difference between YTD Cars Sold and PTYD Cars Sold: 3K
 Formula: [YTD Car Solds]-[PTYD Car Solds]
 
-
+---
 
 #📋 DETAILED SALES GRID
 Complete transaction-level sales data for deep analysis.
@@ -87,8 +87,7 @@ Complete transaction-level sales data for deep analysis.
 
 <img width="1206" height="677" alt="image" src="https://github.com/user-attachments/assets/758a4a8e-d548-4f49-8bb5-4c83252d6352" />
 
-
-
+---
 
 #📈 KEY BUSINESS INSIGHTS
 📈 23.59% YoY Sales Growth generating $371.2M
@@ -110,7 +109,7 @@ Complete transaction-level sales data for deep analysis.
 ⚙️ Automatic > Manual transmission
 
 🔧 DOHC engines outsold OHC
-
+---
 #⚠️ AREAS REQUIRING ATTENTION
 Improve pricing strategy to reverse 0.79% price drop
 
