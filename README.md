@@ -39,7 +39,7 @@ Established a **one-to-many relationship** between:
 
 # 📊 KPI DASHBOARD METRICS
 
-## 🚗 SALES OVERVIEW
+### 🚗 SALES OVERVIEW
 
 
 - **YTD Total Sales:** $371.2M  
@@ -54,9 +54,7 @@ Established a **one-to-many relationship** between:
 - **Difference between YTD Sales and PTYD Sales:** $70.8M  
   - **Formula:** `[YTD Car Sales] - [PTYD Car Sales]`
 
----
-
-## 💰 Average Price Analysis
+### 💰 Average Price Analysis
 
 - **YTD Average Price:** $28.0K  
   - **Formula:** `TOTALYTD([Avg Price], 'Calendar Table'[Date])`
@@ -70,9 +68,7 @@ Established a **one-to-many relationship** between:
 - **Difference between YTD Average Price and PTYD Average Price:** $0.22K loss  
   - **Formula:** `[YTD Avg Price] - [PTYD Avg Price]`
 
----
-
-## 🚘 Cars Sold Metrics
+###🚘 Cars Sold Metrics
 
 - **YTD Cars Sold:** 13.3K  
   - **Formula:** `SUM('Car Data'[YTD Car Solds])`
@@ -85,7 +81,6 @@ Established a **one-to-many relationship** between:
 
 - **Difference between YTD Cars Sold and PTYD Cars Sold:** 3K  
   - **Formula:** `[YTD Car Solds] - [PTYD Car Solds]`
-
 
  
 ---
