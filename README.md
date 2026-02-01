@@ -110,4 +110,5 @@ Attention Required:
 • Implement targeted measures to improve sales for Jaguar and Hyundai, which accounted for less than 1% of total sales.
 
 Conclusion:
+
 • This Car Sales Analytics Dashboard offers a comprehensive view of the dealership's performance in 2023, providing valuable insights into sales trends, KPIs, and areas for improvement. With a clear visualization of key metrics and actionable analysis, this dashboard serves as a powerful tool for making informed decisions and driving growth in the competitive automotive market.
