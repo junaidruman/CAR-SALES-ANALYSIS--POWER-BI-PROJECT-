@@ -19,9 +19,11 @@
 • Extracted valuable information from Date to derive Week, Month, and Year using DAX.
 
  <img width="1844" height="729" alt="image" src="https://github.com/user-attachments/assets/f5abdb25-3698-4c29-aced-068411184a30" />
+ 
 2. Data Modelling:
 
 • Established a one-to-many relationship between the Calendar table and Car's data.
+
 <img width="1646" height="672" alt="image" src="https://github.com/user-attachments/assets/ebf3db0e-9b4f-4091-98ad-a4c4a4a9876f" />
 
 3. Data Preparation:
@@ -77,11 +79,14 @@
 • Company-Wise Sales Trend in Grid Form (Tabular Grid)
 
 • Details Grid Showing All Car Sales Information (Detailed Grid)
-<img width="1208" height="673" alt="image" src="https://github.com/user-attachments/assets/1b500b8a-5829-46a0-8e27-b05eec866b07" />
 
-<img width="1205" height="677" alt="image" src="https://github.com/user-attachments/assets/e3653aae-1eb7-4644-a3b7-2c15e2a3b3f5" />
+<img width="1203" height="674" alt="image" src="https://github.com/user-attachments/assets/f79caf0a-1ead-4efc-987b-6aff6d100a0e" />
+
+ <img width="1205" height="666" alt="image" src="https://github.com/user-attachments/assets/4f2f0cb3-8816-44db-b1e6-6afad27f465f" />
+
 
 5. Analysis Insights:
+   
 • 23.59% YTD sales surge compared to 2022, generating $371.2M in revenue in 2023.
 
 • Average car prices decreased by 0.79% in 2023, requiring attention for potential revenue increase.
@@ -101,6 +106,7 @@
 • Double overhead camshaft engine cars surpassed overhead camshaft engine cars in sales.
 
 Attention Required:
+
 • Address the 0.79% decrease in average car prices in 2023 to potentially boost total revenue.
 
 • Focus on improving sales in Middletown and Pasco regions, which lag behind top-performing regions.
