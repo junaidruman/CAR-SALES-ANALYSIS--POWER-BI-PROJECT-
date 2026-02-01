@@ -1,137 +1,143 @@
-**Project Title: Car Sales Analytics Dashboard - Power BI**
+🚗 Car Sales Analytics Dashboard – Power BI
+📌 Overview
 
-**Overview:**
+Developed a dynamic and interactive Car Sales Dashboard using Microsoft Power BI for a leading car dealership.
+The dashboard provides real-time insights into key performance indicators (KPIs) to support data-driven decision-making and performance monitoring.
 
-• Developed a dynamic and interactive Car Sales Dashboard using Power BI for a leading car dealership.
+🧹 Data Cleaning & Transformation
 
-• Aimed to provide real-time insights into key performance indicators (KPIs), enabling data-driven decisions and performance monitoring.
+Corrected data quality issues (e.g., spelling mistakes)
 
-**Steps Involved:**
+Used Power BI Transform Data for data type corrections
 
-1. Data Cleaning and Transformation
+Created a Calendar Table for YTD, MTD, and YOY analysis
 
-• Rectified errors, including spelling mistakes in the dataset.
+Extracted Week, Month, and Year from Date using DAX
 
-• Utilized Power BI's 'transform' feature for data type correction.
-
-• Created a Calendar table for YTD, MTD, and YOY analysis.
-
-• Extracted valuable information from Date to derive Week, Month, and Year using DAX.
-
- <img width="1844" height="729" alt="image" src="https://github.com/user-attachments/assets/f5abdb25-3698-4c29-aced-068411184a30" />
- 
-2. Data Modelling:
-
-• Established a one-to-many relationship between the Calendar table and Car's data.
-
-<img width="1646" height="672" alt="image" src="https://github.com/user-attachments/assets/ebf3db0e-9b4f-4091-98ad-a4c4a4a9876f" />
-
-3. Data Preparation:
-
-• Introduced DAX measures for KPI calculations.
-
-• Implemented various KPIs, highlighting profit and loss with distinct colors.
-
-4. Data Visualization:
-
-# 📊 Problem Statement 1: KPI’s
-
-## 🚗 Sales Overview
-
-**YTD Total Sales:** $371.2M  
-Formula:  
-`SUM('Car Data'[Total Sales])`
-
-**MTD Total Sales:** $54.28M  
-Formula:  
-`CALCULATE(SUM('Car Data'[Total Sales]), DATESMTD('Calendar Table'[Date]))`
-
-**YOY Growth in Total Sales:** 23.6%  
-Formula:  
-`[Sales Difference] / [PTYD Total Sales]`
-
-**Difference between YTD Sales and PTYD Sales:** $70.8M  
-Formula:  
-`[YTD Car Sales] - [PTYD Car Sales]`
-
----
-
-## 💰 Average Price Analysis
-
-**YTD Average Price:** $28.0K  
-Formula:  
-`TOTALYTD([Avg Price], 'Calendar Table'[Date])`
-
-**MTD Average Price:** $28.26K  
-Formula:  
-`TOTALMTD([Avg Price], 'Calendar Table'[Date])`
-
-**YOY Growth in Average Price:** -0.79%  
-Formula:  
-`[Avg Price Diff] / [PTYD Avg Price]`
-
-**Difference between YTD Average Price and PTYD Average Price:** $0.22K loss  
-Formula:  
-`[YTD Avg Price] - [PTYD Avg Price]`
-
----
-
-## 🚘 Cars Sold Metrics
-
-**YTD Cars Sold:** 13.3K  
-Formula:  
-`SUM('Car Data'[YTD Car Solds])`
-
-**MTD Cars Sold:** 1.92K  
-Formula:  
-`CALCULATE(SUM('Car Data'[MTD Cars Sold]), DATESMTD('Calendar Table'[Date]))`
-
-**YOY Growth in Cars Sold:** 19.73%  
-Formula:  
-`car_data[Cars Sold Diff] / [YTD Car Solds]`
+📷 Data Transformation View
 
 
-Difference between YTD Cars Sold and PTYD Cars Sold: 3K
-Formula: [YTD Car Solds]-[PTYD Car Solds]
+🔗 Data Modelling
 
-• Details Grid Showing All Car Sales Information (Detailed Grid)
+Built a one-to-many relationship between:
 
-<img width="1203" height="674" alt="image" src="https://github.com/user-attachments/assets/f79caf0a-1ead-4efc-987b-6aff6d100a0e" />
+Calendar Table → Car Data
 
-
- <img width="1205" height="666" alt="image" src="https://github.com/user-attachments/assets/4f2f0cb3-8816-44db-b1e6-6afad27f465f" />
+📷 Data Model
 
 
-5. Analysis Insights:
-   
-• 23.59% YTD sales surge compared to 2022, generating $371.2M in revenue in 2023.
+🧮 Data Preparation
 
-• Average car prices decreased by 0.79% in 2023, requiring attention for potential revenue increase.
+Created DAX measures for KPI calculations
 
-• Austin region led in sales, followed by Janesville.
+Designed KPI indicators using color logic for profit vs loss
 
-• Highest sales occurred in the 36th week (September), followed by the 47th week.
+📊 KPI Dashboard Metrics
+🚗 Sales Overview
 
-• Car sales increased by 19.73% in 2023 compared to 2022.
+YTD Total Sales: $371.2M
 
-• Pale White was the top-selling color, and SUVs and Hatchbacks were the leading body styles.
+SUM('Car Data'[Total Sales])
 
-• Chevrolet, Ford, and Dodge were the top 3 selling companies, contributing nearly 18% of total sales.
 
-• Auto transmission outsold manual transmission.
+MTD Total Sales: $54.28M
 
-• Double overhead camshaft engine cars surpassed overhead camshaft engine cars in sales.
+CALCULATE(SUM('Car Data'[Total Sales]), DATESMTD('Calendar Table'[Date]))
 
-Attention Required:
 
-• Address the 0.79% decrease in average car prices in 2023 to potentially boost total revenue.
+YOY Growth in Total Sales: 23.6%
 
-• Focus on improving sales in Middletown and Pasco regions, which lag behind top-performing regions.
+[Sales Difference] / [PTYD Total Sales]
 
-• Analyze and enhance sales strategies during 1Qtr and 2Qtr to match performance in other quarters.
 
-• Implement targeted measures to improve sales for Jaguar and Hyundai, which accounted for less than 1% of total sales.
+Difference between YTD Sales and PTYD Sales: $70.8M
 
-Conclusion:
+[YTD Car Sales] - [PTYD Car Sales]
 
-• This Car Sales Analytics Dashboard offers a comprehensive view of the dealership's performance in 2023, providing valuable insights into sales trends, KPIs, and areas for improvement. With a clear visualization of key metrics and actionable analysis, this dashboard serves as a powerful tool for making informed decisions and driving growth in the competitive automotive market.
+💰 Average Price Analysis
+
+YTD Average Price: $28.0K
+
+TOTALYTD([Avg Price], 'Calendar Table'[Date])
+
+
+MTD Average Price: $28.26K
+
+TOTALMTD([Avg Price], 'Calendar Table'[Date])
+
+
+YOY Growth in Average Price: -0.79%
+
+[Avg Price Diff] / [PTYD Avg Price]
+
+
+Difference between YTD Avg Price and PTYD Avg Price: $0.22K loss
+
+[YTD Avg Price] - [PTYD Avg Price]
+
+🚘 Cars Sold Metrics
+
+YTD Cars Sold: 13.3K
+
+SUM('Car Data'[YTD Car Solds])
+
+
+MTD Cars Sold: 1.92K
+
+CALCULATE(SUM('Car Data'[MTD Cars Sold]), DATESMTD('Calendar Table'[Date]))
+
+
+YOY Growth in Cars Sold: 19.73%
+
+car_data[Cars Sold Diff] / [YTD Car Solds]
+
+
+Difference between YTD and PTYD Cars Sold: 3K
+
+[YTD Car Solds] - [PTYD Car Solds]
+
+📋 Detailed Sales Grid
+
+Comprehensive grid displaying all individual car sales transactions for deep-dive analysis.
+
+📷
+
+
+
+
+📈 Key Business Insights
+
+📈 23.59% YTD sales growth compared to 2022, generating $371.2M revenue
+
+💰 Average car price decreased by 0.79%, highlighting pricing optimization opportunities
+
+🏆 Austin led in total sales, followed by Janesville
+
+📅 Peak sales weeks: Week 36 (September) and Week 47
+
+🚘 Car sales volume increased 19.73% YoY
+
+🎨 Pale White was the top-selling color
+
+🚙 SUVs and Hatchbacks dominated body style sales
+
+🏭 Chevrolet, Ford, and Dodge contributed nearly 18% of total sales
+
+⚙️ Automatic transmission outsold manual
+
+🔧 DOHC engines outsold OHC engines
+
+⚠️ Areas Requiring Attention
+
+Address 0.79% drop in average price to improve revenue
+
+Improve sales in Middletown and Pasco regions
+
+Strengthen Q1 & Q2 strategies to match later quarters
+
+Boost performance for Jaguar and Hyundai (each <1% of sales)
+
+🏁 Conclusion
+
+This dashboard provides a complete performance overview of the dealership’s 2023 operations.
+By combining interactive visuals, KPI tracking, and actionable insights, it enables smarter decisions and strategic growth in a competitive automotive market.
