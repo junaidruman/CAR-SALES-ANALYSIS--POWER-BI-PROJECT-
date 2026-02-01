@@ -87,9 +87,13 @@ Complete transaction-level sales data for deep analysis.
 
 <img width="1206" height="677" alt="image" src="https://github.com/user-attachments/assets/758a4a8e-d548-4f49-8bb5-4c83252d6352" />
 
+
+
 ---
 
 #📈 KEY BUSINESS INSIGHTS
+
+---
 📈 23.59% YoY Sales Growth generating $371.2M
 
 💰 Avg car price dropped 0.79%
@@ -109,7 +113,10 @@ Complete transaction-level sales data for deep analysis.
 ⚙️ Automatic > Manual transmission
 
 🔧 DOHC engines outsold OHC
+
+
 ---
+
 #⚠️ AREAS REQUIRING ATTENTION
 Improve pricing strategy to reverse 0.79% price drop
 
