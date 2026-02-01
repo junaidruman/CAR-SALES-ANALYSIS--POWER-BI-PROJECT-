@@ -50,7 +50,7 @@ MTD Total Sales — $54.28M
 Formula: CALCULATE(SUM('Car Data'[Total Sales]),DATESMTD('Calendar Table'[Date]))
 
 YOY Growth in Total Sales: 23.6%
-Formula: [Sales Difference]/[PTYD Total Sales]
+Formula: [Sales Difference] / [PTYD Total Sales]
 Difference between YTD Sales and PTYD Sales: $70.8M
 Formula: [YTD Car Sales]-[PTYD Car Sales]
 Average Price Analysis:
