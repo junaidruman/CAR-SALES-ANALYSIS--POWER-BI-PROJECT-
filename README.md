@@ -77,8 +77,7 @@ Formula: [YTD Car Solds]-[PTYD Car Solds]
 
 
  
-
-#📋 DETAILED SALES GRID
+📋 DETAILED SALES GRID
 
 Complete transaction-level sales data for deep analysis.
 
@@ -87,7 +86,7 @@ Complete transaction-level sales data for deep analysis.
 
 
 
-##📈 KEY BUSINESS INSIGHTS
+📈 KEY BUSINESS INSIGHTS
 
 📈 23.59% YoY Sales Growth generating $371.2M
 
@@ -103,9 +102,9 @@ Complete transaction-level sales data for deep analysis.
 
 🚙 SUVs & Hatchbacks = best body styles
 
-🏭 Chevrolet, Ford & Dodge = 18% of total sales
+🏭 Chevrolet, Ford & Dodge contribute 18% of total sales
 
-⚙️ Automatic > Manual transmission
+⚙️ Automatic transmission outsold manual
 
 🔧 DOHC engines outsold OHC
 
@@ -119,9 +118,8 @@ Strengthen Q1 & Q2 sales strategies
 
 Increase sales for Jaguar & Hyundai
 
-#🏁 CONCLUSION
+🏁 CONCLUSION
 
-This dashboard delivers a complete performance view of dealership operations, combining KPIs, trends, and insights to support strategic decision-making and revenue growth.
- 
+This dashboard delivers a complete performance view of dealership operations, combining KPIs, trends, and insights to support strategic decision-making and revenue growth in a competitive automotive market.
 
 
