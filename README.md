@@ -44,50 +44,35 @@ Established a **one-to-many relationship** between:
 
 **YTD Total Sales — $371.2M**
 
-```DAX
-SUM('Car Data'[Total Sales])
-MTD Total Sales — $54.28M
+YTD Total Sales: $371.2M
+Formula: SUM('Car Data'[Total Sales])
+MTD Total Sales: $54.28M
+Formula: CALCULATE(SUM('Car Data'[Total Sales]), DATESMTD('Calendar Table'[Date]))
+YOY Growth in Total Sales: 23.6%
+Formula: [Sales Difference]/[PTYD Total Sales]
+Difference between YTD Sales and PTYD Sales: $70.8M
+Formula: [YTD Car Sales]-[PTYD Car Sales]
+Average Price Analysis:
 
-CALCULATE(
-    SUM('Car Data'[Total Sales]),
-    DATESMTD('Calendar Table'[Date])
-)
-YOY Growth in Total Sales — 23.6%
+YTD Average Price: $28.0k
+Formula: TOTALYTD([Avg Price],'Calendar Table'[Date])
+MTD Average Price: $28.26k
+Formula: TOTALMTD([Avg Price],'Calendar Table'[Date])
+YOY Growth in Average Price: -0.79%
+Formula: [Avg Price Diff]/[PTYD Avg Price]
+Difference between YTD Average Price and PTYD Average Price: $0.22k loss
+Formula: [YTD Avg Price]-[PTYD Avg Price]
+Cars Sold Metrics:
 
-[Sales Difference] / [PTYD Total Sales]
-Difference Between YTD Sales and PTYD Sales — $70.8M
+YTD Cars Sold: 13.3K
+Formula: SUM('Car Data'[YTD Car Solds])
+MTD Cars Sold: 1.92k
+Formula: CALCULATE(SUM('Car Data'[MTD Cars Sold]), DATESMTD('Calendar Table'[Date]))
+**YOY Growth in
+Cars Sold:** 19.73% - Formula: car_data[Cars Sold Diff]/[YTD Car Solds]
 
-[YTD Car Sales] - [PTYD Car Sales]
-💰 AVERAGE PRICE ANALYSIS
-YTD Average Price — $28.0K
-
-TOTALYTD([Avg Price], 'Calendar Table'[Date])
-MTD Average Price — $28.26K
-
-TOTALMTD([Avg Price], 'Calendar Table'[Date])
-YOY Growth in Average Price — -0.79%
-
-[Avg Price Diff] / [PTYD Avg Price]
-Difference Between YTD Avg Price and PTYD Avg Price — $0.22K Loss
-
-[YTD Avg Price] - [PTYD Avg Price]
-🚘 CARS SOLD METRICS
-YTD Cars Sold — 13.3K
-
-SUM('Car Data'[YTD Car Solds])
-MTD Cars Sold — 1.92K
-
-CALCULATE(
-    SUM('Car Data'[MTD Cars Sold]),
-    DATESMTD('Calendar Table'[Date])
-)
-YOY Growth in Cars Sold — 19.73%
-
-car_data[Cars Sold Diff] / [YTD Car Solds]
-Difference Between YTD Cars Sold and PTYD Cars Sold — 3K
-
-[YTD Car Solds] - [PTYD Car Solds]
-
+Difference between YTD Cars Sold and PTYD Cars Sold: 3K
+Formula: [YTD Car Solds]-[PTYD Car Solds]   
  
 
 ---
