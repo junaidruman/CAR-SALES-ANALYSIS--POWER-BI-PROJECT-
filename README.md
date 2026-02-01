@@ -34,49 +34,39 @@
 
 4. Data Visualization:
 
- Problem Statement 1: KPI’s Requirement
+Problem Statement 1: KPI’s
 
-• Sales Overview:
+Sales Overview:
 
- YTD Total Sales
+YTD Total Sales: $371.2M
+Formula: SUM('Car Data'[Total Sales])
+MTD Total Sales: $54.28M
+Formula: CALCULATE(SUM('Car Data'[Total Sales]), DATESMTD('Calendar Table'[Date]))
+YOY Growth in Total Sales: 23.6%
+Formula: [Sales Difference]/[PTYD Total Sales]
+Difference between YTD Sales and PTYD Sales: $70.8M
+Formula: [YTD Car Sales]-[PTYD Car Sales]
+Average Price Analysis:
 
- MTD Total Sales
+YTD Average Price: $28.0k
+Formula: TOTALYTD([Avg Price],'Calendar Table'[Date])
+MTD Average Price: $28.26k
+Formula: TOTALMTD([Avg Price],'Calendar Table'[Date])
+YOY Growth in Average Price: -0.79%
+Formula: [Avg Price Diff]/[PTYD Avg Price]
+Difference between YTD Average Price and PTYD Average Price: $0.22k loss
+Formula: [YTD Avg Price]-[PTYD Avg Price]
+Cars Sold Metrics:
 
- YOY Growth in Total Sales
+YTD Cars Sold: 13.3K
+Formula: SUM('Car Data'[YTD Car Solds])
+MTD Cars Sold: 1.92k
+Formula: CALCULATE(SUM('Car Data'[MTD Cars Sold]), DATESMTD('Calendar Table'[Date]))
+**YOY Growth in
+Cars Sold:** 19.73% - Formula: car_data[Cars Sold Diff]/[YTD Car Solds]
 
- Difference between YTD Sales and Previous Year-to-Date Sales
-
-• Average Price Analysis:
-
- YTD Average Price
-
- MTD Average Price
-
- YOY Growth in Average Price
-
- Difference between YTD Average Price and Previous YTD Average Price
-
-• Cars Sold Metrics:
-
- YTD Cars Sold
-
- MTD Cars Sold
-
- YOY Growth in Cars Sold
-
- Difference between YTD Cars Sold and Previous YTD Cars Sold
-
- Problem Statement 2: Charts Requirement
-
-• YTD Sales Weekly Trend (Line Chart)
-
-• YTD Total Sales by Body Style (Donut Chart)
-
-• YTD Total Sales by Color (Donut Chart)
-
-• YTD Cars Sold by Dealer Region (Map Chart)
-
-• Company-Wise Sales Trend in Grid Form (Tabular Grid)
+Difference between YTD Cars Sold and PTYD Cars Sold: 3K
+Formula: [YTD Car Solds]-[PTYD Car Solds]
 
 • Details Grid Showing All Car Sales Information (Detailed Grid)
 
