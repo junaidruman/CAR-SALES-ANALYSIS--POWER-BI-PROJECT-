@@ -75,7 +75,8 @@ Formula: CALCULATE(SUM('Car Data'[MTD Cars Sold]), DATESMTD('Calendar Table'[Dat
 Cars Sold:** 19.73% - Formula: car_data[Cars Sold Diff]/[YTD Car Solds]
 
 Difference between YTD Cars Sold and PTYD Cars Sold: 3K
-Formula: [YTD Car Solds]-[PTYD Car Solds] ```DAX
+Formula: [YTD Car Solds]-[PTYD Car Solds]  ```DAX
+[YTD Car Solds] - [PTYD Car Solds]
 
  
 
