@@ -89,8 +89,11 @@ Established a **one-to-many relationship** between:
 Complete transaction-level sales data for deep analysis.
 
 📷  
-![Sales Grid](images/salesgrid1.png)  
-![Sales Grid](images/salesgrid2.png)
+<img width="1204" height="672" alt="image" src="https://github.com/user-attachments/assets/3c8ce717-cc7c-4d57-ab1f-20eb85f6fb34" />
+
+
+<img width="1206" height="676" alt="image" src="https://github.com/user-attachments/assets/f6df33dc-fd22-4628-bd3a-65367c945853" />
+
 
 ---
 
@@ -119,6 +122,6 @@ Complete transaction-level sales data for deep analysis.
 ---
 
 # 🏁 CONCLUSION
-This dashboard delivers a complete performance view of dealership operations, combining KPIs, trends, and insights to support strategic decision-making and revenue growth in a competitive automotive market.
+This Car Sales Analytics Dashboard offers a comprehensive view of the dealership's performance in 2023, providing valuable insights into sales trends, KPIs, and areas for improvement. With a clear visualization of key metrics and actionable analysis, this dashboard serves as a powerful tool for making informed decisions and driving growth in the competitive automotive market.
 
 
