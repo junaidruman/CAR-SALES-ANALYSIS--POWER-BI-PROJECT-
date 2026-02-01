@@ -79,21 +79,17 @@ Formula: [YTD Car Solds]-[PTYD Car Solds]
 
 ---
 
-#📋 DETAILED SALES GRID
+📋 DETAILED SALES GRID
+
 Complete transaction-level sales data for deep analysis.
 
 📷
-<img width="1205" height="669" alt="image" src="https://github.com/user-attachments/assets/9ab5a09f-20c2-41d2-8776-8cb19f7511f7" />
-
-<img width="1206" height="677" alt="image" src="https://github.com/user-attachments/assets/758a4a8e-d548-4f49-8bb5-4c83252d6352" />
 
 
 
----
 
-#📈 KEY BUSINESS INSIGHTS
+📈 KEY BUSINESS INSIGHTS
 
----
 📈 23.59% YoY Sales Growth generating $371.2M
 
 💰 Avg car price dropped 0.79%
@@ -114,10 +110,8 @@ Complete transaction-level sales data for deep analysis.
 
 🔧 DOHC engines outsold OHC
 
+⚠️ AREAS REQUIRING ATTENTION
 
----
-
-#⚠️ AREAS REQUIRING ATTENTION
 Improve pricing strategy to reverse 0.79% price drop
 
 Boost low-performing regions: Middletown & Pasco
@@ -126,5 +120,6 @@ Strengthen Q1 & Q2 sales strategies
 
 Increase sales for Jaguar & Hyundai
 
-#🏁 CONCLUSION
+🏁 CONCLUSION
+
 This dashboard delivers a complete performance view of dealership operations, combining KPIs, trends, and insights to support strategic decision-making and revenue growth.
